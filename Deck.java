@@ -21,18 +21,18 @@ class Deck{
     this.cards.removeAllElements();
   }
 
-  public void removeCard(Card c){
-    int i = this.cards.search(c);
+  public void removeCard(Card card){
+    int i = this.cards.search(card);
     this.cards.remove(i);
   }
 
-  public Card getCard(Card c){
-    int i - this.cards.search(c);
+  public Card getCard(Card card){
+    int i - this.cards.search(card);
     this.cards.remove(i);
   }
 
-  public Card getCard(Card c){
-    int i = this.cards.search(c);
+  public Card getCard(Card card){
+    int i = this.cards.search(card);
     return this.cards.get(i);
   }
 
@@ -44,8 +44,8 @@ class Deck{
     return this.cards.get(i);
   }
 
-  public Card addCard(Card c){
-    this.cards.push(c);
+  public Card addCard(Card card){
+    this.cards.push(card);
   }
 
 }
