@@ -16,21 +16,21 @@ public class CardTest {
     assertEquals(CardValue.ACE,card.getValue());
   }
 
-  // @Test
-  // public void canBeSilver(){
-  //   ring = new Ring(MetalType.SILVER, GemType.SAPHIRE);
-  //   assertEquals(MetalType.SILVER,ring.getMetal());
-  // }
+  @Test
+  public void canBeClubs(){
+    card = new Card(CardValue.ACE, CardSuit.CLUBS);
+    assertEquals(CardSuit.CLUBS,card.getSuit());
+  }
 
-  // @Test
-  // public void canGetGem(){
-  //   assertEquals(GemType.RUBY,ring.getGem());
-  // }
+  @Test
+  public void canGetSuit(){
+    assertEquals(CardSuit.SPADES,card.getSuit());
+  }
 
-  // @Test
-  // public void canBeSaphire(){
-  //   ring = new Ring(MetalType.SILVER, GemType.SAPHIRE);
-  //   assertEquals(GemType.SAPHIRE,ring.getGem());
-  // }
+  @Test
+  public void canBeFive(){
+    card = new Card(CardValue.FIVE, CardSuit.SPADES);
+    assertEquals(CardValue.FIVE,card.getValue());
+  }
 
 }
