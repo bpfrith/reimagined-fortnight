@@ -1,11 +1,16 @@
-// class Player(){
-//   private String name;
-//   private int Value;
+package card_game;
+import java.util.*;
 
-// public void play(Card card){
-  
-// }
+public class Player{
 
-// public void showHand(){
-  
-// }
+  String name; 
+
+  public Player(String name) {
+    this.name = name;
+  }
+
+  public String getName(){
+    return this.name;
+  }
+
+}
