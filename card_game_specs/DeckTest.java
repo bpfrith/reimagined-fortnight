@@ -29,4 +29,10 @@ public class DeckTest {
     assertEquals(1, deck.packCount());
   }
 
+  @Test
+  public void canDealACard() {
+    Card result = deck.dealCard();
+    assertEquals(51, deck.packCount());
+  }
+
 }

@@ -28,4 +28,12 @@ public class Deck{
     deck.add(card);
   }
 
+  public Card dealCard(){
+    return deck.remove(0);
+  }
+
+  public void shuffleDeck() {
+    Collections.shuffle(deck);
+  }
+
 }
