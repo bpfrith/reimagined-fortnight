@@ -33,4 +33,9 @@ public class CardTest {
     assertEquals(CardValue.FIVE,card.getValue());
   }
 
+  @Test
+    public void testReturnString(){
+      assertEquals("ACE of SPADES", card.cardType());
+    }
+
 }

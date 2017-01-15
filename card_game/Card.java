@@ -18,4 +18,8 @@ public class Card{
     return this.suit;
   }
 
+  public String cardType(){
+    return this.value + " of " + this.suit;
+  }
+
 }
