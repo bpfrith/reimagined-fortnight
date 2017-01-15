@@ -3,10 +3,12 @@ import java.util.*;
 
 public class Player{
 
-  String name; 
+  private String name; 
+  private Hand hand;
 
   public Player(String name) {
     this.name = name;
+    this.hand = new Hand();
   }
 
   public String getName(){
