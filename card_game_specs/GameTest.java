@@ -6,8 +6,7 @@ public class GameTest {
 
   Game game;
   Deck deck;
-  Card card1;
-  Card card2;
+  Card card1, card2;
   Player player1, player2;
 
   @Before
