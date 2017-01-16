@@ -25,6 +25,14 @@ public class Hand{
     hand.clear();
   }
 
+  // public int getValue(){
+  //   int i = 0;
+  //   for (Card card : hand){
+  //     i += card.getValue();
+  //   }
+  //   return i;
+  // }
+
   // public void sortByValue() {
   //     ArrayList sortedValueHand = new ArrayList();
   //     while (hand.size() > 0) {

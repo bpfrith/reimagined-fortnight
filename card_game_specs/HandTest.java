@@ -39,4 +39,11 @@ public class HandTest {
     assertEquals(0,hand.cardCount() );
   }
 
+  // @Test 
+  // public void canGetValueOfHand(){
+  //   Card card = new Card(CardValue.ACE, CardSuit.SPADES);
+  //   hand.addCard(card);
+  //   assertEquals(ACE, player.getValue());
+  // }
+
 }
